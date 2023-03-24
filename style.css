@@ -61,6 +61,7 @@
     width: 125px;
     text-decoration: none;
     height: 100%;
+    transition: all 0.3s ease;
 }
 
 .navbar__menu {
@@ -101,10 +102,27 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background; #8433ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d. #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d. #833ab4);
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     color: #fff;
     transition: all 0.3s ease;
+}
+
+.navbar__links:hover  {
+    color: #833ab4;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 960px) {
+    .navbar__container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
 }
 
