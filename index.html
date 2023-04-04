@@ -1,48 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NELKE</title>
-    <link rel="stylesheet" href="style.css">
-    
-</head>
-<body class="body">
-
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/46d1a9475a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="body">
     <!-- Navbar Section -->
 
-<nav class="navbar">
-    <div class="navbar__container">
+    <nav class="navbar">
+      <div class="navbar__container">
         <a href="#home" id="navbar__logo">NELKE</a>
         <div class="navbar__toggle" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
         <ul class="navbar__menu">
-            <li class="navbar__item">
-                <a href="#home" class="navbar__links" id="#home-page">
-                    Home
-                </a>
-            </li>
-            <li class="navbar__item">
-                <a href="#clients" class="navbar__links" id="#client-page">
-                    Clients
-                </a>
-            </li>
-            <li class="navbar__item">
-                <a href="#Services" class="navbar__links" id="#services-page">
-                    Services
-                </a>
-            </li>
-            <li class="navbar__btn">
-                <a href="#Contact" class="button" id="#contact">
-                    Contact
-                </a>
-            </li>
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="#home-page"> Home </a>
+          </li>
+          <li class="navbar__item">
+            <a href="#clients" class="navbar__links" id="#client-page">
+              Clients
+            </a>
+          </li>
+          <li class="navbar__item">
+            <a href="#Services" class="navbar__links" id="#services-page">
+              Services
+            </a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#Contact" class="button" id="#contact"> Contact </a>
+          </li>
         </ul>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Conscious <span>Branding</span></h1>
+        <p class="hero__description">for professionals who care</p>
+        <button class="main__btn"><a href="#" id="">Contact</a></button>
+      </div>
     </div>
-</nav>
-</body>
+
+    <!-- About Section -->
+    <div class="main about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><i class="fa fa-layer-group"></i></div>
+        </div>
+        <div class="main__content">
+          <h1>Brands with purpose.</h1>
+          <h2>
+            NELKE helps you develop the core infrastructure of your product.
+          </h2>
+          <p>
+            Are you a professional or an entrepreneur who wants to re-fresh your
+            brand. We help you do it. Our services are available in english and
+            german.
+          </p>
+          <button class="main__btn">
+            <a href="#" id="">Schedule a meeting</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
 </html>
